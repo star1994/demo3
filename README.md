@@ -19,6 +19,6 @@ Things you may want to cover:
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-ad76767676
+* Deployment iasdsanstructions
+addas7sdkh6767dsa676
 *jnhnjk
