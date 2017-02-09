@@ -1,3 +1,157 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.banner {
+    background: image-url('banner.jpg');
+    min-height: 725px;
+    background-size: cover;
+}
+.banner-main {
+    padding-top: 20em;
+        text-align: center;
+}
+.banner-main h3 {
+    font-size: 1em;
+    color: #fff;
+    padding: 0.5em 1em;
+    background: #CF0C68;
+    display: inline-block;
+    font-family: 'HindVadodara-Regular';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.banner-main h2 {
+    font-size: 2em;
+    color: #fff;
+    padding: 0.5em 1em;
+    background: rgba(0, 0, 0, 0.57);
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Share-Regular';
+}
+
+
+.about-grid {
+    text-align: center;
+}
+.about-grid-main {
+    background: #eee;
+    padding:2em 2em;
+    border: 2px solid #EEEEEE;
+}
+.about-grid-main:hover{
+	border: 2px solid #000;
+	border-radius: 5px;
+	transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+/*-- w3layouts --*/
+.about-grid-main h4 {
+    font-size: 1.3em;
+    color:#CF0C68;
+    margin: 0.5em 0em;
+    font-family: 'Share-Regular';
+}
+.about-grid-main p {
+    font-size: 1em;
+    color: #000;
+    line-height: 1.8em;
+}
+.about-grid {
+    float: left;
+    width: 33%;
+    padding: 0px 0px 0px 10px;
+}
+.about-grid-main {
+    padding: 1em 1em;
+}
+.about-grid-main p {
+    font-size: 0.91em;
+}
+.about-grid {
+    float: none;
+    width: 70%;
+    padding: 0px 0px 15px 10px;
+    margin: 0 auto;
+}
+.about-grid-main img {
+    width: 25%;
+}
+.about-grid {
+    width: 90%;
+}
+.about-grid {
+    width: 100%;
+    padding: 0px 0px 15px 0px;
+}
+.about-w3l {
+    padding: 5em 0em;
+}
+.about-w3l {
+    padding: 3em 0em;
+}
+.about-w3l {
+    padding: 2em 0em;
+}
+.about-w3l {
+    padding: 1.5em 0em;
+}
+.about-top-w3l {
+    text-align: center;
+    padding: 0em 0em 4em 0em;
+}
+.about-top-w3l h3 {
+    font-size: 3em;
+    color:#CF0C68;
+    margin-bottom: 0.2em;
+    font-family: 'Share-Regular';
+}
+.about-top-w3l p {
+    font-size: 1.05em;
+    color:#716E6E;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.8em;
+}
+.about-top-w3l p {
+    width: 65%;
+}
+.about-top-w3l {
+    padding: 0em 0em 3em 0em;
+}
+.about-top-w3l h3 {
+    font-size: 2.5em;
+}
+.about-top-w3l p {
+    width: 100%;
+    font-size: 0.9em;
+}
+.about-top-w3l {
+    padding: 0em 0em 2em 0em;
+}
+.about-top-w3l h3 {
+    font-size: 2.2em;
+}
+.team {
+    padding: 0em 0em 5em 0em;
+}
+.team-top {
+    text-align: center;
+    padding-bottom: 1em;
+}
+.team-top h3 {
+    font-size: 3em;
+    color: #CF0C68;
+    margin-bottom: 0.2em;
+    font-family: 'Share-Regular';
+}
+.team-top p {
+    font-size: 1.05em;
+    color: #716E6E;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.8em;
+}

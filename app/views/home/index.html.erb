@@ -52,17 +52,100 @@
 		</div>
 	</div>
 </div>
-<div class="body" style="margin-left:5rem;margin-right:5rem">
+<div class="body" >
+	<div class="row">
+		<div class="banner">
+			<div class="container">
+				<div class="banner-main">
+					   <h3>Design Demo</h3>
+					   <h2>Demo in Ruby on Rails Project.</h2>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+
+		<div class="about-w3l" id="about">
+			<div class="container">
+				<div class="about-main-w3l">
+					<div class="about-top-w3l">
+					   <h3>About</h3>
+					   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+					</div>
+							
+				</div>
+
+			</div>
+			<div class="row" >
+						
+							<div class="col-sm-4" >
+								<div class="about-grid-main about-grid ">
+									<%=image_tag('d1.png')%>
+
+									<h4>Design Demo</h4>
+									<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+								</div>
+							</div>
+							<div class="col-sm-4" >
+								<div class="about-grid-main about-grid ">
+									<%=image_tag('d2.png')%>
+									<h4>Design Demo 1</h4>
+									<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+								</div>
+							</div>
+							<div class="col-sm-4" >
+								<div class="about-grid-main about-grid ">
+									<%=image_tag('d3.png')%>
+									<h4>Design Demo 2</h4>
+									<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+								</div>
+							</div>
+						
+					
+					  <div class="clearfix"> </div>
+					</div>	
+		</div>
+
+
+	</div>
+	<div class="row">
+
+		<div class="team" id="team">
+			<div class="container">
+				<div class="team-main">
+					  <div class="team-top">
+					  	<h3>Our Team</h3>
+					  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+					  </div>
+					  
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
 	<div class="row">
 	    <div class="col-md-6"> 
-	    	<span>
-	    		abc
-	    	</span>
+	    <table>
+	    	<tr>
+	    		<td>Name</td>
+	    		<td>Email</td>
+	    	</tr>
+	    	<tbody>
+	    		<% @user.each do |getuser| %>
+		    		<tr>
+		    		
+		    			<td><%= getuser.name %></td>
+		    			<td><%= getuser.email %></td>
+		    		</tr>
+	    		 <% end %>
+	    	</tbody>
+	    </table>
+		    
 	    </div>
 	     <div class="col-md-6"> 
-	     	<span>
-	     		def
-	     	</span>
+		
 	    </div>
 	</div>
 </div>
